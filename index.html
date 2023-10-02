@@ -32,11 +32,10 @@
 				<td width="900"><h1>Formula 1 Tienda</h1></td>
 				<td><img src="https://static.vecteezy.com/system/resources/previews/007/407/996/non_2x/user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg" width="30" height="30"><p>Login</p></td> 
 				<td>
-					// create a new `Date` object
-					var today = new Date();
-					// get today's date in `MM/DD/YYYY` format
-					var now = today.toLocaleDateString('en-US');
-					console.log(now);
+					<script>
+						var d = new Date();
+						document.write('Fecha: '+d.getDate(),'<br>Mes: '+d.getMonth(),'<br>Año: '+d.getFullYear(),'<br>Hora: '+d.getHours(),'<br>Minutos: '+d.getMinutes(),'<br>Segundos: '+d.getSeconds());
+	    				</script>
 				</td>
 				<div align="right"><td> <div id="c_58a033ace3ed71eef51e6a07e8f634cd" class="mini"></div><script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/58a033ace3ed71eef51e6a07e8f634cd"></script></td></div>
 			</tr>
