@@ -2,7 +2,9 @@
 
 <html>
   <body> 
-    <p> Sus datos se han registrado corectamente</p>
-    <input type="button" value="volver">
+    <form> 
+      <p> Sus datos se han registrado corectamente</p>
+      <input type="button" value="volver">
+    </form>
   </body>
 </html>
