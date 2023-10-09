@@ -1,8 +1,0 @@
-!DOCTYPE html!
-
-<html>
-  <body> 
-    <p> Sus datos se han registrado corectamente</p>
-    <input type="button" value="volver">
-  </body>
-</html>
