@@ -29,6 +29,12 @@ body {
   animation: slide 20s infinite alternate ease-in-out;
 }
 
+.slider-box li {
+  width:100%;
+  list-style: none;
+  position: relative;
+}
+
 .texto {
   position: absolute;
   text-align: center;
