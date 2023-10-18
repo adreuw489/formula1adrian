@@ -58,3 +58,29 @@ body {
 
   75% { margin-left: -300%; }
   100% { margin-left: -300%; }
+}
+
+@media(max-width:991px) {
+  body {
+    padding: 30px;
+  }
+
+  .slider-box {
+    width: 100%;
+  {
+
+  .texto {
+    top: 50px;
+    padding: 0;
+  }
+
+  .texto h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .texto p {
+    font-size: 15px;
+  }
+    
+}
