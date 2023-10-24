@@ -1,102 +1,24 @@
 <!DOCTYPE html>
-
-<html>
-<head><h1>a</h1>
-<link rel="stylesheet" type="text/css" href="./a.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="wrapper">
-	<div id="mask">
 
-		<!-- first row -->
+    <h2>Slider automatico con HTML & CSS</h2>
 
-		<div id="item1" class="item">
-			<a name="item1"></a>
-			<div class="content">item1 
-				<a href="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/02/bwt-alpine-2613451.jpg" class="panel">1</a> | 
-				<a href="https://cdn-5.motorsport.com/images/mgl/2y39NBy6/s800/williams-racing-logo-1.jpg" class="panel">2</a> | 
-				<a href="https://www.noticias-f1.com/wp-content/uploads/2014/09/haas_f1_team-logo.jpg" class="panel">3</a>
-			</div>
-		</div>
-		
-		<div class="item"></div>
-		<div class="item"></div>
-		<div class="clear"></div>
-
-		<!-- second row -->		
-		
-		<div class="item"></div>
-
-		<div id="item2" class="item">
-			<a name="item2"></a>
-			<div class="content">item2 <a href="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/02/bwt-alpine-2613451.jpg" class="panel">back</a></div>
-		</div>
-
-		<div class="item"></div>
-		<div class="clear"></div>
-		
-		<!-- third row -->
-
-		<div class="item"></div>
-		<div class="item"></div>
-
-		<div id="item3" class="item">
-			<a name="item3"></a>
-			<div class="content">item3 <a href="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/02/bwt-alpine-2613451.jpg" class="panel">back</a></div>
-		</div>
-		
-		<div class="clear"></div>
-
-	</div>
-</div>
-<script>
-	$(document).ready(function() {
-
-        //get all link with class panel
-        $('a.panel').click(function () {
-
-                //reset and highlight the clicked link
-                $('a.panel').removeClass('selected');
-                $(this).addClass('selected');
-                
-                //grab the current item, to be used in resize function
-                current = $(this);
-                
-                //scroll it to the destination
-                $('#wrapper').scrollTo($(this).attr('href'), 800);              
-                
-                //cancel the link default behavior
-                return false;
-        });
-
-
-        //resize all the items according to the new browser size
-        $(window).resize(function () {
-                
-                //call the resizePanel function
-                resizePanel();
-        });
-        
-});
-function resizePanel() {
-
-        //get the browser width and height
-        width = $(window).width();
-        height = $(window).height();
-
-        //get the mask width: width * total of items
-        mask_width = width * $('.item').length;
-                
-        //set the dimension     
-        $('#wrapper, .item').css({width: width, height: height});
-        $('#mask').css({width: mask_width, height: height});
-        
-        //if the item is displayed incorrectly, set it to the corrent pos
-        $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
-                
-}
-</script>
+    <div class="slider-frame">
+        <ul>
+            <li><img src="slider1.jpg" alt=""></li>
+            <li><img src="slider2.jpg" alt=""></li>
+            <li><img src="slider3.jpg" alt=""></li>
+            <li><img src="slider4.jpg" alt=""></li>
+        </ul>
+    </div>
+    
 </body>
 </html>
-
-
