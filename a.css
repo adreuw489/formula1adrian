@@ -20,7 +20,7 @@ h2 {
 .slider-frame ul {
 	display: flex;
 	padding: 0;
-	width: 400%;
+	width: 800%;
 	
 	animation: slide 20s infinite alternate ease-in-out;
 }
@@ -31,7 +31,7 @@ h2 {
 }
 
 .slider-frame img {
-	width: 800%;
+	width: 100%;
 }
 
 @keyframes slide {
