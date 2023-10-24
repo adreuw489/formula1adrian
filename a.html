@@ -49,3 +49,97 @@
 </div>
 </body>
 </html>
+
+body {
+        height:100%;
+        width:100%;
+        margin:0;padding:0;
+}
+
+#wrapper {
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;left:0;
+        background-color:#ccc;
+        overflow:hidden;
+}
+
+        #mask {
+                width:500%;
+                height:100%;
+
+                background-color:#eee;
+        }
+
+        .item {
+                width:20%;
+                height:100%;
+                float:left;
+                background-color:#ddd;
+        }
+        
+        
+        .content {
+                width:400px;
+                height:300px;
+                top:20%;
+                margin:0 auto;
+                background-color:#aaa;
+                position:relative;
+        }
+        
+        .selected {
+                background:#fff;
+                font-weight:700;
+        }
+
+        .clear {
+                clear:both;
+        }
+
+ $(document).ready(function() {
+
+        //get all link with class panel
+        $('a.panel').click(function () {
+
+                //reset and highlight the clicked link
+                $('a.panel').removeClass('selected');
+                $(this).addClass('selected');
+                
+                //grab the current item, to be used in resize function
+                current = $(this);
+                
+                //scroll it to the destination
+                $('#wrapper').scrollTo($(this).attr('href'), 800);              
+                
+                //cancel the link default behavior
+                return false;
+        });
+
+
+        //resize all the items according to the new browser size
+        $(window).resize(function () {
+                
+                //call the resizePanel function
+                resizePanel();
+        });
+        
+});
+function resizePanel() {
+
+        //get the browser width and height
+        width = $(window).width();
+        height = $(window).height();
+
+        //get the mask width: width * total of items
+        mask_width = width * $('.item').length;
+                
+        //set the dimension     
+        $('#wrapper, .item').css({width: width, height: height});
+        $('#mask').css({width: mask_width, height: height});
+        
+        //if the item is displayed incorrectly, set it to the corrent pos
+        $('#wrapper').scrollTo($('a.selected').attr('href'), 0);
+                
+}
