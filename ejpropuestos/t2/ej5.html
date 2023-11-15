@@ -4,55 +4,117 @@
 <body> 
 	<h1 align="center">Formulario </h1>
 	<table width="1000"><tr><td>
-	<p>
-	  <form action="https://adreuw489.github.io/formula1adrian/registro.html" enctype="multipart/form-data" method="get" align="center">
-		<fieldset>
-			<legend> FORMULARIO DE PEDIDO</legend>
-			<table width="700" cellpadding=12><tr>
-			
-	<tr><td>
-      	<fieldset>	
-		Identificador de nuevo usuario: <input type="text" name="usuario"> <br>
-      	</fieldset> 
-      	</td></tr>
-			
-			
-      
+		<p>
+			<form action="https://adreuw489.github.io/formula1adrian/registro.html" enctype="multipart/form-data" method="get" align="center">
+				<fieldset>
+					<legend> FORMULARIO DE PEDIDO</legend>
+					<table width="700" cellpadding=12><tr>
+				
+						<tr><td>
+							<fieldset>	
+								Identificador de nuevo usuario <input type="text" name="usuario"> 
+							</fieldset> 
+						</td></tr>
+						
+						<tr><td>
+							<fieldset>
+								Nombre <input type="text" name="nombre"> 
+							</fieldset>
+						</td>
+						<td>
+							<fieldset>
+								Apellido <input type="text" name="apellido">
+							</fieldset>
+						</td>
+						</tr>
 	
-		<td> 	<fieldset>
-			<legend> Tipo de Cliente </legend><br>
-			<input type="radio" id="particular" name="tipo" checked>
-			<label for="particular">Particular</label><br>
-			<input type="radio" id="asociacion" name="tipo">
-			<label for="asociacion">Asociacion</label><br>
-			<input type="radio" id="empresa" name="tipo">
-			<label for="empresa">Empresa</label><br>
-			</fieldset>
-		</td></table>
-
-		<table width=980 cellpadding=5>
-		<tr><td><strong> > Paso 2. Pedido <br> </strong></td></tr>
-		<tr>
-		<td>	
-			<fieldset>
-			<legend> Datos del Producto </legend>
-			Producto <br>
-				<select id="producto" name="producto" size="7" multiple="si">
-					<optgroup label="Equipos">
-						<option> Red bull</option>
-						<option> Ferrari</option>
-						<option> Aston Martín</option>
-						<option> Williams</option>
-						<option> Mercedes</option>
-						<option> McLaren</option>
-					<optgroup>
-					<optgroup label="Figuras">
-						<option> Coches escala 1/43</option>
-						<option> Funkos</option>
-					<optgroup>
-				</select>
-			</fieldset>
-		</td>
+						<tr><td>
+							<fieldset>
+								Contraseña <input type="password" name="pass"> 
+							</fieldset>
+						</td>
+						<td>
+							<fieldset>
+								Confirmar contraseña <input  type="password" name="confirm pass">
+							</fieldset>
+						</td>
+						</tr>
+					
+						<tr><td>
+							<fieldset>	
+								Email <input type="text" name="email"> 
+							</fieldset> 
+						</td></tr>
+						
+						<tr><td>
+							<fieldset>	
+								SEXO
+							</fieldset> 
+						</td>
+						<td>
+							<fieldset>	
+							<input type="radio" name="genero" value="m"> Masculino
+							<input type="radio" name="genero" value="f" checked> Femenino <br>
+							</fieldset> 
+						</td>
+						<tr>
+						 
+						<tr><td>
+							<fieldset>	
+								Email <input type="text" name="email"> 
+							</fieldset> 
+						</td></tr>
+						
+						<tr><td>
+							<fieldset>	
+								Aficiones
+							</fieldset> 
+						</td>
+						<td>
+							<fieldset>	
+								Deporte <input type="checkbox" name="Deporte"> <br>
+								Lectura <input type="checkbox" name="Lectura" checked> <br>
+								Cine <input type="checkbox" name="Cine"> 
+							</fieldset> 
+						</td>
+						<tr>
+						
+						<tr><td>
+							<fieldset>	
+								País
+							</fieldset> 
+						</td>
+						<td>
+							<fieldset>	
+								<select id="país" name="País" size="1" checked="Francia">
+									<optgroup>
+										<option> España</option>
+										<option> Francia </option>
+										<option> Portugal</option>
+									</optgroup>
+								</select>
+							</fieldset> 
+						</td>
+						<tr>
+						
+						<tr><td>
+							<fieldset>	
+								Colores
+							</fieldset> 
+						</td>
+						<td>
+							<fieldset>	
+								<select id="país" name="País" size="1" multiple="si">
+									<optgroup>
+										<option> España</option>
+										<option> Francia </option>
+										<option> Portugal</option>
+									</optgroup>
+								</select>
+							</fieldset> 
+						</td>
+						<tr>
+		
 		<td>	<fieldset>	
 	  			<legend> Información de interés </legend>
 	  			Comentarios <br>
