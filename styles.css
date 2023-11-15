@@ -1,1 +1,27 @@
+:root {
+  --color:#f4eeb4;
+}
 
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+  background: var(--color);
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.fotos .galeria {
+  max-width:750px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grip-template-rows: 250px 250px 250px;
+  grip`-gap: 1rem;
+}
