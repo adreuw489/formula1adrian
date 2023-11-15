@@ -25,3 +25,48 @@ body {
   grip-template-rows: 250px 250px 250px;
   grip`-gap: 1rem;
 }
+
+.fotos .galeria .img-a {
+  background: black;
+  grid-column: 2/4;
+}
+
+.fotos .galeria .img-b {
+  background: black;
+}
+
+.fotos .galeria .img-c {
+  background: black;
+}
+
+.fotos .galeria .img-d {
+  background: black;
+}
+
+.fotos .galeria .img-e {
+  background: black;
+}
+
+.fotos .galeria .img-f {
+  background: black;
+}
+
+.fotos .galeria .img-g {
+  background: black;
+}
+
+.fotos .galeria .img-h {
+  background: black;
+}
+
+.fotos .galeria .img-i {
+  background: black;
+}
+
+.fotos .galeria .img-j {
+  background: black;
+}
+
+.fotos .galeria .img-k {
+  background: black;
+}
