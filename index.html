@@ -68,7 +68,16 @@
 			border: 1px solid #ccc;
 			box-sizing: border-box; /* Para incluir el borde en el ancho y alto */
 			}
-			
+			.footer {
+                	display: grid;
+                	grid-template-columns: 1fr 1fr 1fr 1fr;
+                	background: rgb(60, 60, 60);
+                	clear:both;
+                	color:#F4F4F4 ;
+               		padding:10px;
+                	text-align:center;
+               	 	margin-top: 1px;
+                	}
 	    </style>
     </head>
 	
@@ -92,10 +101,10 @@
 			<div id="MenuArriba"> 
 				<ul>
 					<li><a href="https://adreuw489.github.io/formula1adrian/">Inicio</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/pilotos.html">Pilotos</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/escuderias.html">Escuderias</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/circuitos.html">Circuitos</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/figuras.html">Figuras</a></li>
 					<li><a href="https://adreuw489.github.io/formula1adrian/camisetas.html">Camisetas</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/circuitos.html">Circuitos</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/equipos.html">Equipos</a></li>
 					<li><a href="https://adreuw489.github.io/formula1adrian/form.html">Carrito</a></li>
 				</ul>
 			</div> 
@@ -121,17 +130,30 @@
 			</div>
 		</section>
     
-		<footer align="center" style="background-color:rgb(231, 231, 231)">
-            <hr><a name="final"></a>
-            <table width="100%" cellpadding=1; style="border: 1px solid">   
-				<tr>
-					<td align="left"><a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</td>
-					<td><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
-						Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
-						<address>Adrián Hidalgo Cid</address></td>
-				</tr>                
-            </table>
+		<footer>
+			<div class="footer">
+				<div>
+				<h3>Atención al cliente</h3>
+			 	 <a href="#">Contactanos</a><br>
+			 	 <a href="#">Tel: +34 969 245 719</a> <br>
+				  <a href="#">info@adreuw.es</a><br>
+				  <a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+			
+				<div>
+					<h3>Información</h3>
+						<a href="#">Aviso Legal</a><br>
+					<a href="#">Política de privacidad</a><br>
+					<a href="#">Terminos de condiciones</a><br>
+				</div>
+				<div> 
+					<p>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
+						<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
+						<address>Adrián Hidalgo Cid</address>
+					</p>
+				</div>
+			</div>
 		</footer>
     </body>
 </html>
