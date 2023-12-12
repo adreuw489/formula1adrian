@@ -4,7 +4,6 @@
 		<meta charset="UTF-8">
 		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<title>Formula 1 adrián</title>
-		<link rel="stylesheet" href="styles.css">
 		<link rel="shortcut icon" type="image/x-icon" href="https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg">
 		<style>
 			body {border: solid;
@@ -47,6 +46,22 @@
 			div#MenuArriba li a:hover {
 			background-color: #111;
 			}
+			.footer {
+                	display: grid;
+	                grid-template-columns: 1fr 1fr 1fr 1fr;
+	                background: rgb(60, 60, 60);
+	                clear:both;
+	                color:#F4F4F4 ;
+	                padding:10px;
+	                text-align:center;
+	                margin-top: 1px;
+			a:link 
+	                {color:white ;
+	                text-decoration: none; }
+	                a:visited {color:white;  }
+	                a:hover {color:red; }
+	                }
+			
 		</style>
 	</head>
 	<body>
@@ -213,17 +228,30 @@
 		    			</form>
 		    		</p>	
 		    	</table>
-		<footer align="center" style="background-color:rgb(231, 231, 231)">
-	            <hr><a name="final"></a>
-	            <table width="100%" cellpadding=1; style="border: 1px solid">   
-			<tr>
-				<td align="left"><a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</td>
-				<td><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
-				Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
-				<address>Adrián Hidalgo Cid</address></td>
-			</tr>                
-	            </table>
-		</footer>
+		<footer>
+		<div class="footer">
+			<div>
+			<h3>Atención al cliente</h3>
+			  <a href="#">Contactanos</a><br>
+			  <a href="#">Tel: +34 969 245 719</a> <br>
+			  <a href="#">info@adreuw.es</a><br>
+			  <a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			
+			<div>
+				<h3>Información</h3>
+				<a href="#">Aviso Legal</a><br>
+				<a href="#">Política de privacidad</a><br>
+				<a href="#">Terminos de condiciones</a><br>
+			</div>
+			<div> 
+				<p>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
+					<address>Adrián Hidalgo Cid</address>
+				</p>
+			</div>
+		</div>
+	</footer>
 	</body>
 </html>
