@@ -2,92 +2,209 @@
 <html lang="es" dir="ltr">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="keywords" content="HTML, CSS, JavaScript">
 		<title>Formula 1 adrián</title>
-		<link rel="stylesheet" href="styles.css">
-		<link rel="shortcut icon" type="image/x-icon" href="https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg">
-		<style>
-			body {border: solid;
-					}
-			#principal {background-color:rgb(220, 245, 243); border: 2px solid; width: 400px; font-size: large;
-			} 
-			img {float: left;
-			}
-			p {margin: 55px}
-			img {margin:5px}
+		<link rel="shortcut icon" type="image/x-icon" href="https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg"> 
+		<meta name="description" content="sitio wed formula 1">
+    		<meta name="author" content="Adrián"/>
+        	<meta name="copyright" 
+	    	<meta charset="utf-8" />
+        	<style>
+            body{ margin:0;
+                    padding:0;
+                    width:100;
+                    min-width:650;
+                    border-style: none;
+                    font-family: ariel;
+                    color: black;
+					background-color:#FAFBF6  ;
+                 }
+    
 			
-			} 
-			img {float: left;}
-			p {margin: 5px
-			}
-			img {margin:5px
-			}
-			div#MenuArriba ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			background-color: #333;
-			}
+            a:link 
+                     {color:black ;
+                    text-decoration: none; }
+                    
+                    a:visited {color:white;  }
+                    
+                    a:hover {color:red; }
+          
+
+            div#MenuArriba ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				}
+				
+				
 			div#MenuArriba li {
-			float: left;
-			}
+				float: left;
+				}
+				
+				
 			div#MenuArriba li a {
-			display: block;
-			color: white;
-			text-align: center;
-			padding: 14px 90px;
-			text-decoration: none;
-			}
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 128px;
+				text-decoration: none;
+				}
+			
+			
 			div#MenuArriba li a:hover {
-			background-color: #111;
-			}	
-		</style>
-	</head>
-	<body>
-		<div class="contenido">
-			<header style="border: 1px solid; background-color: white;">
-				<table>
-					<tr>
-						<td width="900"><img src="https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg"  alt="f1" width="100" height="100"></td>
-						<td width="900"><h1>Formula 1 Tienda</h1></td>
-						<td width="100"><a href="formularioreg.html"><img src="https://static.vecteezy.com/system/resources/previews/007/407/996/non_2x/user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg" alt="icono" width="30" height="30"></a></td> 
-						<td width="100">
-							<script>
-								var d = new Date();
-								document.write('Día: '+d.getDate(),'<br>Mes: '+d.getMonth(),'<br>Año: '+d.getFullYear());
-							</script>
-						</td>
-						<td> <div align="right"><div id="c_58a033ace3ed71eef51e6a07e8f634cd" class="mini"></div><script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/58a033ace3ed71eef51e6a07e8f634cd"></script></div></td>
-					</tr>
-				</table>
-			</header>
+				background-color: #111;
+				}
+                    
+                    
+
+            .menu {
+                     margin-top: 40px;
+ 
+                    }
+                    
+            .menu a{
+                  text-decoration: none;
+                  color: black; 
+                  margin-left: 50px;
+                    }
+                 a{
+               padding: 10px 5px;
+            }
+
+            .content{
+ 
+                  display: flex;
+                }
+                
+            .navbar{
+  
+                    background: rgba(60, 60, 60 );
+                    width: 170px;
+                    height: auto;
+                    margin-left: 1px;
+                    margin-top: 1px;
+                    margin-right: 1px;
+                    }
+                    
+            .navbar a{
+              display: block;
+              
+            }
+            a{
+               padding: 10px 34px;
+            }
+      
+            .menu-right  {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr; 
+                background:#FAFBF6  ; 
+                width:100%;
+                margin-left: 1px
+                padding: 5px 40px;
+                text-align: center;
+                margin-top: 10px;
+             
+            }
+
+            .footer {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                background: rgb(60, 60, 60);
+                clear:both;
+                color:#F4F4F4 ;
+                padding:10px;
+                text-align:center;
+                margin-top: 1px;
+		a:link 
+                {color:white ;
+                text-decoration: none; }
+                a:visited {color:white;  }
+                a:hover {color:red; }
+                }
+                
+        </style>
+    </head>
+    <body>
+        <header style="border: 1px solid; background-color: white;">
+			<table>
+				<tr>
+					<td width="45%"><img src="https://www.formula1.com/etc/designs/fom-website/social/f1-default-share.jpg"  alt="f1" width="100" height="100"></td>
+					<td width="45%"><h1>Formula 1 Tienda</h1></td>
+					<td width="5%"><a href="formularioreg.html"><img src="https://static.vecteezy.com/system/resources/previews/007/407/996/non_2x/user-icon-person-icon-client-symbol-login-head-sign-icon-design-vector.jpg" alt="icono" width="30" height="30"></a></td> 
+					<td width="5%">
+						<script>
+							var d = new Date();
+							document.write('Día: '+d.getDate(),'<br>Mes: '+d.getMonth(),'<br>Año: '+d.getFullYear());
+	    				</script>
+					</td>
+					<td> <div align="right"><div id="c_58a033ace3ed71eef51e6a07e8f634cd" class="mini"></div><script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/58a033ace3ed71eef51e6a07e8f634cd"></script></div></td>
+				</tr>
+			</table>
 			<div id="MenuArriba"> 
 				<ul>
 					<li><a href="https://adreuw489.github.io/formula1adrian/">Inicio</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/pilotos.html">Pilotos</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/escuderias.html">Escuderias</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/circuitos.html">Circuitos</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/camisetas.html">Camisetas</a></li>
-					<li><a href="https://adreuw489.github.io/formula1adrian/cascos.html">Cascos</a></li>
 					<li><a href="https://adreuw489.github.io/formula1adrian/figuras.html">Figuras</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/camisetas.html">Camisetas</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/circuitos.html">Circuitos</a></li>
+					<li><a href="https://adreuw489.github.io/formula1adrian/equipos.html">Equipos</a></li>
 					<li><a href="https://adreuw489.github.io/formula1adrian/form.html">Carrito</a></li>
 				</ul>
-			</div>
-			<div id="Content" style="border: 1px solid; background-color: white; height: 700px;">	
-			</div>
-			<footer align="center" style="background-color:rgb(231, 231, 231)">
-	            		<hr><a name="final"></a>
-	            		<table width="100%" cellpadding=1; style="border: 1px solid">   
-					<tr>
-						<td align="left"><a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						</td>
-						<td><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
-							Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
-							<address>Adrián Hidalgo Cid</address></td>
-					</tr>                
-	           	 	</table>
-			</footer>
+			</div> 
+		</header>
+    <div class="content">
+		<div class="navbar">
+			<img src="https://e1.pxfuel.com/desktop-wallpaper/899/412/desktop-wallpaper-f1-logo-formula-one-mobile-minimalist-thumbnail.jpg" width="170" height="100%" alt= "figura"> <br>
+				
 		</div>
-	</body>
-</html>
+		<div class="menu-right">
+			<div>
+				<h3 style="color:purple;"> Figuras escala 1/8 50,00€  </h3>
+					<img src="https://cdn.wallapop.com/images/10420/d2/ua/__/c10420p790833040/i2673869476.jpg?pictureSize=W640" width="350" height="350" alt= "camiseta"> <br>
+			  
+				<h3 style="color:purple;"> Scalextric 99,00€</h3>
+					<img src="https://cloud10.todocoleccion.online/scalextric-tecnitoys/tc/2022/09/24/14/363073145_tcimg_7752641F.jpg" width="350" height="250" alt= "figura"> <br>		
+			</div> 
+			<div style="margin-top:0%;">
+				<h3 style="color:purple;"> Coches escala 1:43 110,00€</h3>
+					<img src="https://m.media-amazon.com/images/I/71PyzzFKEIL._AC_UF894,1000_QL80_.jpg" width="550" height="350" alt= "camiseta"> <br>
+				<h3 style="color:purple;"> Formula 1 Lego 133,27€</h3>
+					<img src="https://m.media-amazon.com/images/I/8132XjSVmoL.jpg" width="450" height="250" alt= "camiseta"> <br>
+			</div>
+			<div>
+				<h3 style="color:purple;"> Funkos 24,90€</h3>
+					<img src="https://cdn.awsli.com.br/600x700/84/84034/produto/231432359/max-verstappen-c-800-4xjbws7hvt.jpg" width="350" height="350" alt= "figura"> <br>	
+			  
+				<h3 style="color:purple;"> Llavero Pirelli 22,00€</h3>
+					<img src="https://images.footballfanatics.com/pirelli/pirelli-wet-tyre-keyring-blue_ss4_p-13329454+u-p0lopa5x87470vibqs9w+v-531ffb80e6de4afe9f42296c9bfc923a.jpg?_hv=2&w=600" width="350" height="250" alt= "camiseta"> <br>
+				
+				
+			</div>
+		</div> 
+    </div> 
+    <footer>
+		<div class="footer">
+			<div>
+			<h3>Atención al cliente</h3>
+			  <a href="#">Contactanos</a><br>
+			  <a href="#">Tel: +34 969 245 719</a> <br>
+			  <a href="#">info@adreuw.es</a><br>
+			  <a href="<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-seguir-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+			
+			<div>
+				<h3>Información</h3>
+				<a href="#">Aviso Legal</a><br>
+				<a href="#">Política de privacidad</a><br>
+				<a href="#">Terminos de condiciones</a><br>
+			</div>
+			<div> 
+				<p>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Licencia Creative Commons Atribución-NoComercial 4.0 Internacional</a>
+					<address>Adrián Hidalgo Cid</address>
+				</p>
+			</div>
+		</div>
+	</footer>
+ </html>
