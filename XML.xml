@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Aquí viene un comentario -->
+<coches>
+	<coche id="1">
+		<nombre> Ferrari </nombre>
+		<piloto> Charles Leclerc</piloto>
+	</coche>
+	<coche id="2">
+		<nombre> Aston Martín </nombre>
+		<piloto> Fernando Alonso </piloto>
+	</coche>
+</coches>
