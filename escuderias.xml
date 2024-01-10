@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="estiloxml.css"?>
 <!DOCTYPE escuderias SYSTEM "escuderias.dtd">
 <!-- Aquí viene un comentario -->
@@ -10,5 +10,17 @@
 	<escuderia id="2">
 		<nombre> Aston Martín </nombre>
 		<piloto> Fernando Alonso </piloto>
+	</escuderia>
+	<escuderia id="3">
+		<nombre> Mercedes </nombre>
+		<piloto> Lewis Hamilton </piloto>
+	</escuderia>
+	<escuderia id="4">
+		<nombre> AlphaTauri </nombre>
+		<piloto> Yuki Tsunoda </piloto>
+	</escuderia>
+	<escuderia id="5">
+		<nombre> Alfa Romeo </nombre>
+		<piloto> Valtteri Bottas</piloto>
 	</escuderia>
 </escuderias>
