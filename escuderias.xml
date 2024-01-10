@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/css" href="estiloxml.css"?>
-<!DOCTYPE coches SYSTEM "coches.dtd">
+<!DOCTYPE escuderias SYSTEM "escuderia.dtd">
 <!-- Aquí viene un comentario -->
 <escuderias>
 	<escuderia id="1">
