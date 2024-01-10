@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="estiloxml.css"?>
+<!DOCTYPE coches SYSTEM "coches.dtd">
+<!-- Aquí viene un comentario -->
+<escuderias>
+	<escuderia id="1">
+		<nombre> Ferrari </nombre>
+		<piloto> Charles Leclerc</piloto>
+	</escuderia>
+	<escuderia id="2">
+		<nombre> Aston Martín </nombre>
+		<piloto> Fernando Alonso </piloto>
+	</escuderia>
+</escuderias>
